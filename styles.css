@@ -7,12 +7,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   height:70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #17408B;
 }
 
 .header--left {
@@ -21,7 +26,7 @@ body {
   align-items: center;
   font-weight: 500;
   color: white;
-  font-size: 22px;
+  font-size: 25px;
   letter-spacing: 0.2em;
   margin-left: 100px;
 }
@@ -29,6 +34,7 @@ body {
 .header--right {
   margin-right: 100px;
   color: white;
+  font-weight: bold;
 }
 
 .header--right a:visited {
@@ -48,4 +54,56 @@ body {
 .header img {
   height: 55px;
   margin-right: 12px;
+}
+
+.firstSection {
+  background-color: #C9082A;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstSection--left {
+  margin-top: 0px;
+}
+
+.firstSection--right img{
+  height: 300px;
+  border-radius: 3px;
+}
+
+.firstSection--header {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  margin-bottom: 0px;
+}
+
+.firstSection--desc {
+  color: white;
+  letter-spacing: 0.05cm;
+  margin-top: 10px;
+}
+
+.firstSection--button {
+  color: white;
+  background-color: #17408B;
+  border: none;
+  font-weight: bold;
+  padding: 9px 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  letter-spacing: 0.03cm;
+  transition: all 0.5s;
+}
+
+.firstSection--button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.button--link:link, .button--link:visited{
+  color: white;
 }
