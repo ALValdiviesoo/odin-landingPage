@@ -1,1 +1,1 @@
-# odin-landingPage
+This is the second project for The Odin Project. This includes more knowledge for HTML and CSS. This would also show original ideas and design for a landing page.
