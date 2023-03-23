@@ -107,3 +107,52 @@ body {
 .button--link:link, .button--link:visited{
   color: white;
 }
+
+.secondSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.secondSection--top {
+  display: grid;
+  place-content: center;
+  font-weight: bolder;
+  letter-spacing: 0.02cm;
+  margin-bottom: 0px;
+  font-size: 24px;
+}
+
+.secondSection--bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  margin-top: 0px;
+}
+
+.secondSection--bottom a {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.02cm;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.secondSection--bottom a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.secondSection--bottom a:link, .secondSection--bottom a:visited {
+  color: black;
+}
+
+.nbaPlayer {
+  height: 150px;
+}
+
+.firstPlayer, .secondPlayer, .thirdPlayer, .fourthPlayer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
