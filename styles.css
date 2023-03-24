@@ -99,6 +99,7 @@ body {
   font-size: 15px;
   letter-spacing: 0.03cm;
   transition: all 0.5s;
+  margin-top: 14px;
 }
 
 .firstSection--button:hover {
@@ -120,6 +121,7 @@ body {
   place-content: center;
   font-weight: bolder;
   letter-spacing: 0.02cm;
+  margin-top: 12px;
   margin-bottom: 0px;
   font-size: 24px;
 }
